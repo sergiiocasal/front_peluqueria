@@ -13,7 +13,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #FF65C3;
+  background-color: #E4A2AC;
   color: rgba(255, 255, 255, 0.87);
   display: grid;
   place-content: center;
@@ -117,10 +117,40 @@ form {
 }
 
 .logo {
-  height: 12vh;
-  width: 12vh;
+  height: 10vh;
+  width: 10vh;
 }
 
 .container h2 {
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.418);
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #eee;
+  color: #1a1a1a;
+}
+
+#btn-premio {
+  margin-top: .6rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.premio_registrado {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 70vw;
+  background-color: rgba(133, 48, 121, 0.514);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.418);
 }
